@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const gallery = document.querySelector(".gallery");
     const galleryContainer = document.querySelector(".gallery-container");
     const titleContainer = document.querySelector(".title-container");
-    const btnMute = document.querySelector("#btnMuteAudio");
+    const btnMuteAudio = document.querySelector("#btnMuteAudio");
 
     const cards = [];
     const transformState = [];
