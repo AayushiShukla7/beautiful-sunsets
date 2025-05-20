@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY - Image Gallery</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Toronto Sunsets - Image Gallery</a>
+        <button type="button" id="btnMuteAudio">Mute / Unmute</button>
+    </nav>
+
+    <audio id="music" src="./public/music/soft-and-calm-piano-music-341043.mp3" preload="auto" autoplay loop></audio>
+
+    <!-- For subtle parallax effect on move move -->
+    <div class="container">
+
+        <!-- For zoom and rotation transitions -->
+        <div class="gallery-container">
+            <div class="gallery">
+            </div>
+        </div>
+
+        <!-- Shows when gallery is clicked on -->
+        <div class="title-container"></div>
+
+        <footer>
+            <p>Experiment #1</p>
+            <p>By - Aayushi Shukla</p>
+        </footer>
+
+    </div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
