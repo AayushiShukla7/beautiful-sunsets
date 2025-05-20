@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Register the Plugin
     gsap.registerPlugin(SplitText);   
+    music.play();
 
     const gallery = document.querySelector(".gallery");
     const galleryContainer = document.querySelector(".gallery-container");
