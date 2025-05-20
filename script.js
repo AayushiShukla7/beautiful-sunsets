@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         const words = splitText.words;
 
-        gsap.set(words, { y: "125%" }); // Initial position (out of frame)
+        gsap.set(words, { y: "150%" }); // Initial position (out of frame)
 
         gsap.to(words, {
             y: "20%",
